@@ -12,9 +12,13 @@ Key Features:
 
 Files Modified:
 
-viewticket.tpl (Template)
+viewticket.tpl (Six Based Template)
 lang/english.php (you should use lang/overrides/english.php or your prefered language
-Add Custom hook DisableReplyClosed.php
+Add Custom hook DisableReplyClosed.php (for Six Based Template)
+
+viewticket-21.tpl (Twenty-One Based Template)
+lang/english.php (you should use lang/overrides/english.php or your prefered language
+Add Custom hook DisableReplyClosed-21.php (for Twenty-One Based Templatee)
 Use Case:
 
 Prevents users from attempting to reply to closed tickets, improving UX and reducing support confusion.
