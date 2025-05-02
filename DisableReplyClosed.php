@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------------
 | This hook will check if the ticket status is 'Closed'.
 | If the ticket is closed, it will remove the "Reply" button from the ticket via the template file
-| This remobed the Reply Banner and the Reply Button on the viewticket.php screen in the client area to prevent the user from reopening the ticket. 
+| This removes the Reply Banner and the Reply Button on the viewticket.php screen in the client area to prevent the user from reopening the ticket. 
 | The viewticket.tpl also needs to be updated as done the LANG file
 |
 | — Enterrahost
