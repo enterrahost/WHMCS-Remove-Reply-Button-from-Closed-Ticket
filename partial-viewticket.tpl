@@ -14,7 +14,7 @@
 
 ### viewticket.tpl Only add from Below here ####
 
-{* Added CSS to Hide the Reply button this goes hear the top of the file below around line 11 below the initial "{if sections" *}
+{* Added CSS to Hide the Reply button this goes near the top of the file below around line 11 below the initial "{if sections" *}
 {if $additionalCSS}
     <style>{$additionalCSS}</style>
 {/if}
