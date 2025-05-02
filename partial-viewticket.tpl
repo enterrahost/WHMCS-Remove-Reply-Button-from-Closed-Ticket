@@ -5,7 +5,7 @@
 | The hook will check if the ticket status is 'Closed' and then hide the Reply banner, and the Reply Button
 | Find your themes viewticket.tpl /templates/MYTHEME/viewticket.tpl and make a backup. 
 | then edit viewticket.tpl and find "{if !$invalidTicketId}" (about line 13) then replace all the test to about like 69 the closing </div> for this section,
-| the closing div is above "<div class="panel panel-info visible-print-block">"
+| the closing div is above "{foreach $descreplies as $reply}"
 | The LANG file in /lang/(overides)/english.php should be updated too, you can search for "This ticket is closed. ...." 
 | You can change the text to something like "$_LANG['supportticketclosedmsg'] = "This ticket is closed.  Please Log a New Ticket if Needed.";
 |
